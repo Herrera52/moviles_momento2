@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ic_apartamento"
+        android:layout_weight="50"/>
+
+    <TextView
+        android:id="@+id/textViewLg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/usuario"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="CORREO"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+
+        android:layout_weight="9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/candado"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edt_style"/>
+
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_marginBottom="7dp"
+        android:layout_weight="9"
+        android:background="@drawable/btn_style"
+
+        android:onClick="login"
+        android:text="@string/Ingresar"
+        android:textColor="@color/negro"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/btn_registrar"
+        android:gravity="center"
+
+
+        android:onClick="registt"
+        android:text="@string/registrar"
+        android:textColor="@color/negro"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecuPass"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

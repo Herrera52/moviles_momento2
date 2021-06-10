@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/archivo"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="25"/>
+
+    <TextView
+        android:id="@+id/textViewRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/agg_apart"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtApart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/hogar"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/infoapart"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtPais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/mapa"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/pais"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/ciudad"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/ciudad"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/direccion"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/direccion"
+         />
+
+
+    <EditText
+        android:id="@+id/edtDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/descripcion"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/descripcion"/>
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_weight="9"
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/precio"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/precio"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_marginBottom="7dp"
+        android:layout_weight="9"
+        android:background="@drawable/btn_style"
+        android:onClick="saveuser"
+        android:text="@string/regis_apart"
+
+        android:textColor="@color/negro"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_weight="9"
+        android:background="@drawable/btn_registrar"
+
+        android:onClick="Regresar"
+
+        android:text="@string/volver"
+
+        android:textColor="@color/negro"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WORLD APARTMENTS</string>
+    <string name="Register">REGISTER</string>
+    <string name="name">NOMBRE</string>
+    <string name="user">USUARIO</string>
+    <string name="email">EMAIL</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="reg">REGISTRARSE</string>
+    <string name="volver">VOLVER</string>
+    <string name="login">LOGIN</string>
+    <string name="Ingresar">INGRESAR</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="RecuPass">OLVIDASTE TU CONTRASEÑA?</string>
+    <string name="list">Listado</string>
+    <string name="apart">APARTAMENTO</string>
+    <string name="descrip">Pulsa Para Ver Mas Informacion</string>
+    <string name="delete">ELIMINAR</string>
+    <string name="add_apart">AÑADIR APARTAMENTO</string>
+    <string name="ver_apart">VER APARTAMENTOS</string>
+    <string name="infoapart">APARTAMENTO O CASA?</string>
+    <string name="pais">PAIS</string>
+    <string name="ciudad">CIUDAD</string>
+    <string name="descripcion">DESCRIPCION</string>
+    <string name="precio">PRECIO</string>
+    <string name="agg_apart">AGREGAR APARTAMENTO</string>
+    <string name="regis_apart">REGISTAR APARTAMENTO</string>
+    <string name="REGISTRO">REGISTRO</string>
+    <string name="titutlo">APARTMENTS WORLD</string>
+    <string name="EDITAR">EDITAR</string>
+    <string name="direccion">DIRECCION</string>
+    <string name="Info">Iformacion</string>
+    <string name="cerrar"></string>
+    <string name="acerca">Acerca de</string>
+    <string name="infoapp">APLICACION CREADA POR:</string>
+    <string name="infoap">SEBASTIAN HERRERA OSPINA</string>
+    <string name="exit">CERRAR SESIÓN</string>
+</resources>
